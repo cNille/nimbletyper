@@ -42,6 +42,10 @@ span.current {
   position: relative;
 }
 
+span.current.wrong{
+  background-color: #f33;
+}
+
 .word-box {
   position: relative;
   display: block;
@@ -58,4 +62,16 @@ input[type="Text"] {
   margin: auto;
   border-radius: 3px;
   width: 350px;
+}
+
+button {
+  padding: 10px 15px;
+  border-radius: 3px;
+  margin: 5px 10px;
+  border: 2px solid #eee;
+  transition: .3s all ease-in;
+  cursor: pointer;
+}
+button:hover {
+  border: 2px solid #aea;
 }
